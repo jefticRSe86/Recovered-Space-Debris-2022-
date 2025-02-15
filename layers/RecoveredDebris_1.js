@@ -1,0 +1,14 @@
+var json_RecoveredDebris_1 = {
+"type": "FeatureCollection",
+"name": "RecoveredDebris_1",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Latitude": -36.57, "Longitude": 148.78, "Satcat ID": null, "Name": "Space X Crew Dragon Trunk", "Reentry Date": "09-07-2022", "Material": "carbon and aluminium composites", "Place": "Jindabyne, Australia" }, "geometry": { "type": "Point", "coordinates": [ 148.78, -36.57 ] } },
+{ "type": "Feature", "properties": { "Latitude": -1.58, "Longitude": 37.6, "Satcat ID": null, "Name": "Unknown Metallic Ring", "Reentry Date": "30-12-2024", "Material": "metallic ring 2.5 m and 500 kg", "Place": "Mukuku, Kenya" }, "geometry": { "type": "Point", "coordinates": [ 37.6, -1.58 ] } },
+{ "type": "Feature", "properties": { "Latitude": 26.16, "Longitude": -81.8, "Satcat ID": 47853.0, "Name": "ISS Nickel-Hydrogen Batteries", "Reentry Date": "08-03-2024", "Material": "Metal alloy Inconel, weighs 1.6 pounds, is 4 inches in height and 1.6 inches in diameter", "Place": "Naples, Florida, US" }, "geometry": { "type": "Point", "coordinates": [ -81.8, 26.16 ] } },
+{ "type": "Feature", "properties": { "Latitude": -29.84, "Longitude": 114.98, "Satcat ID": null, "Name": "ISRO PSLV Third Stage Rocket Debris", "Reentry Date": "19-07-2023", "Material": "PSLV third stage rocket debris", "Place": "Green Head beach 250 km north of Perth, Australia" }, "geometry": { "type": "Point", "coordinates": [ 114.98, -29.84 ] } },
+{ "type": "Feature", "properties": { "Latitude": 35.58, "Longitude": -82.87, "Satcat ID": 57697.0, "Name": "Space X Crew Dragon Trunk", "Reentry Date": "12-03-2024", "Material": "Trunk base of the Crew Dragon spacecraft, The 3-foot, 90-pound piece", "Place": "The Glamping Collective, Asheville, North Carolina, US" }, "geometry": { "type": "Point", "coordinates": [ -82.87, 35.58 ] } },
+{ "type": "Feature", "properties": { "Latitude": 51.16, "Longitude": -103.5, "Satcat ID": null, "Name": "Space X Crew Dragon Trunk", "Reentry Date": "February 2024", "Material": "carbon and aluminium composites", "Place": "Ituna, Saskatchewan, Canada" }, "geometry": { "type": "Point", "coordinates": [ -103.5, 51.16 ] } },
+{ "type": "Feature", "properties": { "Latitude": 20.3, "Longitude": 79.6, "Satcat ID": null, "Name": "Piece of China Long March 3B Rocket", "Reentry Date": "02-04-2022", "Material": "2 to 3 m in diameter and weighing over 40 kg", "Place": "Sindewahi, India" }, "geometry": { "type": "Point", "coordinates": [ 79.6, 20.3 ] } }
+]
+}
