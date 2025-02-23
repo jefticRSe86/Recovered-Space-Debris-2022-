@@ -8,7 +8,7 @@ var style_RecoveredDebris_1 = function(feature, resolution){
     };
     
     var labelText = ""; var value = feature.get("");
-    var labelFont = "10.4px \'MS Shell Dlg 2\', sans-serif";
+    var labelFont = "10px, sans-serif";
     var labelFill = "#000000";
     var bufferColor = "";
     var bufferWidth = 0;
@@ -16,8 +16,8 @@ var style_RecoveredDebris_1 = function(feature, resolution){
     var offsetX = 0;
     var offsetY = 0;
     var placement = 'point';
-    if (feature.get("Name") !== null) {
-        labelText = String(feature.get("Name"));
+    if ("" !== null) {
+        labelText = String("");
     }
     var style = [ new ol.style.Style({
         image: new ol.style.RegularShape({radius: 5.0 + size, points: 3,
