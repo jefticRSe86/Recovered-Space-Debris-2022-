@@ -1,5 +1,5 @@
 ol.proj.proj4.register(proj4);
-//ol.proj.get("EPSG:4326").setExtent([-182.489024, -188.386457, 195.510976, 179.873666]);
+//ol.proj.get("EPSG:4326").setExtent([-182.489024, -158.928222, 195.510976, 150.415431]);
 var wms_layers = [];
 
 var lyr_NASA_Population_Density_2020_0 = new ol.layer.Image({
@@ -34,9 +34,9 @@ var lyr_RecoveredDebris_1 = new ol.layer.Vector({
 
 lyr_NASA_Population_Density_2020_0.setVisible(true);lyr_RecoveredDebris_1.setVisible(true);
 var layersList = [lyr_NASA_Population_Density_2020_0,lyr_RecoveredDebris_1];
-lyr_RecoveredDebris_1.set('fieldAliases', {'Latitude': 'Latitude', 'Longitude': 'Longitude', 'Satcat ID': 'Satcat ID', 'Name': 'Name', 'Reentry Date': 'Reentry Date', 'Material': 'Material', 'Place': 'Place', });
-lyr_RecoveredDebris_1.set('fieldImages', {'Latitude': 'TextEdit', 'Longitude': 'TextEdit', 'Satcat ID': 'TextEdit', 'Name': 'TextEdit', 'Reentry Date': 'TextEdit', 'Material': 'TextEdit', 'Place': 'TextEdit', });
-lyr_RecoveredDebris_1.set('fieldLabels', {'Latitude': 'hidden field', 'Longitude': 'hidden field', 'Satcat ID': 'hidden field', 'Name': 'inline label - always visible', 'Reentry Date': 'inline label - always visible', 'Material': 'inline label - always visible', 'Place': 'inline label - always visible', });
+lyr_RecoveredDebris_1.set('fieldAliases', {'Latitude': 'Latitude', 'Longitude': 'Longitude', 'Satcat ID': 'Satcat ID', 'Name': 'Name', 'Reentry Date': 'Reentry Date', 'Description': 'Description', 'Place': 'Place', });
+lyr_RecoveredDebris_1.set('fieldImages', {'Latitude': 'TextEdit', 'Longitude': 'TextEdit', 'Satcat ID': 'TextEdit', 'Name': 'TextEdit', 'Reentry Date': 'TextEdit', 'Description': '', 'Place': 'TextEdit', });
+lyr_RecoveredDebris_1.set('fieldLabels', {'Latitude': 'hidden field', 'Longitude': 'hidden field', 'Satcat ID': 'hidden field', 'Name': 'inline label - always visible', 'Reentry Date': 'inline label - always visible', 'Description': 'inline label - always visible', 'Place': 'inline label - always visible', });
 lyr_RecoveredDebris_1.on('precompose', function(evt) {
     evt.context.globalCompositeOperation = 'normal';
 });
