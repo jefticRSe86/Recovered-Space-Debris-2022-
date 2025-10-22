@@ -1,5 +1,5 @@
 ol.proj.proj4.register(proj4);
-//ol.proj.get("EPSG:4326").setExtent([-182.489024, -158.928222, 195.510976, 150.415431]);
+//ol.proj.get("EPSG:4326").setExtent([-186.736215, -159.703587, 191.263785, 160.534616]);
 var wms_layers = [];
 
 var lyr_NASA_Population_Density_2020_0 = new ol.layer.Image({
