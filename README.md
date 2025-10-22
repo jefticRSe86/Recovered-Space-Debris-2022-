@@ -5,4 +5,4 @@ Webmap link: https://jefticrse86.github.io/Recovered-Space-Debris-2022-/
 
 Population density map NASA Worldview
 
-Compiled by: Space Debris Research Lab
+Compiled by: Space Debris Research Lab [debrisorbital.com]
